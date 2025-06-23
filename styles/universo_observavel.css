@@ -15,6 +15,7 @@
 
 body{
     height: 100vh;
+    background-color: #000000;
     background-image: url("../assets/fundo_estrelas.png");
     background-size: cover;         /* Faz com que a imagem cubra a tela sem distorcer */
     background-repeat: no-repeat;   /* Evita repetição da imagem */
