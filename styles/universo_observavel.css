@@ -55,7 +55,7 @@ body::before {
     margin-top: 0;
     margin-bottom:20px;
     margin-left: 20px;
-     margin-right: 20px;
+    margin-right: 20px;
 }
 
 .main_conteudo span{
@@ -70,4 +70,17 @@ body::before {
     margin-right: 30px;
 }
 
+}
+.subtitle h1{
+    color: #FFFFFF;
+    font-family:'Inter';
+    font-weight: 100;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }

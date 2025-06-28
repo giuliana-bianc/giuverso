@@ -64,6 +64,7 @@ body::after {
   color:#FFFFFF;
   gap: 15px; /* espaço entre os ícones e o texto */
   width: 92%;
+  text-decoration: none;
 }
 
 .menu_link_icon_title{
