@@ -51,7 +51,7 @@ body {
     justify-content: center;
     align-content: center;
     padding-bottom: 30px;
-    padding-top:35px;
+    padding-top: 35px;
 
 }
 
@@ -60,12 +60,12 @@ span {
     color: #FFFFFF;
     font-family: 'Inter';
     font-weight: 100;
-    text-align:justify;
+    text-align: justify;
     font-size: 15px;
-    padding-left:30px ;
-   padding-right: 30px;
-   line-height: 2.0;
-   
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 2.0;
+
 }
 
 .h6 {
@@ -114,7 +114,7 @@ span {
     min-width: 70%;
     max-width: 70%;
     margin: auto;
-    margin-bottom:40px;
+    margin-bottom: 40px;
     padding: 15px;
 
     h2 {
@@ -145,8 +145,107 @@ span {
     }
 
 }
+.main_title {
+
+        .main_title_img {
+            display: block;
+            margin: 0 auto;/* vai centralizaer a imagem como bloco */
+        }
+    }
+    .img_universo {
+        text-align: center;
+    }
 
 
-footer{
+footer {
     height: 30px;
+}
+
+@media (min-width: 1024px) {
+
+    .main_title {
+        h1 {
+            font-size: 90px;
+            padding-bottom: 70px;
+        }
+
+        span {
+            font-size: 30px;
+        }
+
+        .main_title_img {
+            display: block;
+            margin: 0 auto;/* vai centralizaer a imagem como bloco */
+        }
+    }
+
+    .subtitle {
+        h1 {
+            font-size: 50px;
+            padding-top:100px;
+            padding-bottom:100px;
+        }
+
+        span {
+            font-size: 30px;
+            padding-left:70px;
+            padding-right:70px;
+        }
+    }
+
+    .img_universo {
+        text-align: center;
+    }
+
+    .imagem_universo {
+        height: 700px;
+        padding-top: 50px;
+    }
+
+    .img_universo {
+        span.h6 {
+            font-size: 20px;
+            line-height: 20px;
+            padding-left: 70px;
+            padding-right: 70px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+    }
+
+    .squares {
+        min-width: 30%;
+        max-width: 30%;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 15px;
+        }
+
+        h5 {
+            font-size: 15px;
+        }
+    }
+
+    .title {
+        h1 {
+            font-weight: 100;
+            font-size: 50px;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+            padding-top:100px;
+            padding-bottom:50px;
+
+        }
+    }
 }
